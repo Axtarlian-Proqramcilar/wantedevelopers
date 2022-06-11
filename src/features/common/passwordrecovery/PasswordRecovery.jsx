@@ -23,6 +23,7 @@ const PasswordRecovery = () => {
     if (isNumber) {
       setLabelText("Search by your email or name instead");
       setIsNumber(false);
+
     } else {
       setLabelText("Enter your mobile number");
       setIsNumber(true);
