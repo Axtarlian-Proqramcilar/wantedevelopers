@@ -1,0 +1,11 @@
+version: "0.1"
+environments:
+  - name: firstSectionLastBranch
+    branch: firstSectionLastBranch
+    mode: pull-request
+apps:
+  - name: wantedevelopers
+    path: wantedclientside/
+    text-resources:
+      - path: "*.tsx"
+        format: react-hardcoded
